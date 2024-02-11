@@ -1,0 +1,22 @@
+[flake8]
+ignore=
+    # Line too long (E501)
+    E501,
+    # Line break occurred before a binary operator (W503)
+    W503,
+    # Line break occurred after a binary operator (W504)
+    W504,
+    # Python 2.x reserved word print used (T002)
+    T002,
+    # Bare except block (E772)
+    E722,
+    # Redefinition of unused (F811)
+    F811
+exclude = 
+    .git,
+    __pycache__,
+    */venv/*,
+    */migrations/*,
+    */fixtures/*,
+    **/__init__.py,
+    manage.py
